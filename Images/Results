@@ -4,7 +4,7 @@ Outperforms many traditional ML methods while maintaining low FLOPs (192.19 MFLO
 
 Comparison with other architectures:
 
-**Model Performance Comparison**
+Model Performance Comparison
 
 | Model           | Parameters | FLOPs | Accuracy |
 | --------------- | ---------- | ----- | -------- |
