@@ -1,15 +1,15 @@
-###  Results  
 
-- Achieved **90.87% accuracy** in classifying benign vs malignant cases.  
-- Outperforms many traditional ML methods while maintaining **low FLOPs (192.19 MFLOPs)** and just **2.5M parameters** — making it highly efficient.  
+##  Results
 
-####  Comparison with Other Architectures  
+* Achieved **90.87% accuracy** in classifying benign vs malignant cases.
+* Outperforms many traditional ML methods while maintaining **low FLOPs (192.19 MFLOPs)** and just **2.5M parameters** — making it highly efficient.
+* Comparison with other architectures:
 
-| Model          | Params | FLOPs  | Accuracy |
-|----------------|--------|--------|----------|
-| **MobileNetV4** | 2.5M   | 192M   | **90.87%** |
-| ResNet50       | 25.6M  | 4.1B   | 94.8% |
-| DenseNet-161   | 28.7M  | 7.8B   | 91.57% |
-| EfficientNet-B0| 5.3M   | 390M   | 93.0% |
+| Model           | Params | FLOPs | Accuracy   |
+| --------------- | ------ | ----- | ---------- |
+| **MobileNetV4** | 2.5M   | 192M  | **90.87%** |
+| ResNet50        | 25.6M  | 4.1B  | 94.8%      |
+| DenseNet-161    | 28.7M  | 7.8B  | 91.57%     |
+| EfficientNet-B0 | 5.3M   | 390M  | 93.0%      |
 
  While ResNet/EfficientNet achieve slightly higher accuracy, **MobileNetV4 is far more computationally efficient**, making it ideal for **real-world deployment on mobile/edge devices**.
